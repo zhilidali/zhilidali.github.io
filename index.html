@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion">
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, NexT, JavaScirpt, CSS3, HTML5, Node.js, Angular.js, Bootstrab, webpack, vue.js, 前端开发工程师" />
 
 
 
@@ -99,7 +99,7 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"right","display":"post"},
     fancybox: true,
     motion: true,
@@ -162,7 +162,7 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">以代码为妻的前端痴</p>
+  <p class="site-subtitle">前端工程师的家园</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -268,8 +268,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/07/16/新文章/" itemprop="url">
-                  欢迎进入前端的世界
+                <a class="post-title-link" href="/2016/07/16/Hexo/" itemprop="url">
+                  Hexo Note
                 </a>
               
             
@@ -293,8 +293,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/07/16/新文章/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/16/新文章/" itemprop="commentsCount"></span>
+                <a href="/2016/07/16/Hexo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/16/Hexo/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -319,16 +319,18 @@
       
         
           
-            <h1 id="前端圈"><a href="#前端圈" class="headerlink" title="前端圈"></a>前端圈</h1><ul>
-<li><a href="https://github.com/zhilidali/" target="_blank" rel="external">GitHub地址</a></li>
-<li><a href="http://www.jianshu.com/users/506b31a37a51/" target="_blank" rel="external">简书地址</a></li>
-<li><a href="https://segmentfault.com/u/zhilidali" target="_blank" rel="external">segmentfault</a></li>
-<li><a href="http://www.imooc.com/u/1214377" target="_blank" rel="external">慕课网</a></li>
-<li><a href="http://www.hubwiz.com/personal/56b5c40c50cf863071826b07" target="_blank" rel="external">汇智网</a></li>
-<li><a href="http://cnodejs.org/user/zhilidali" target="_blank" rel="external">CNode社区</a></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">List.prototype.remove = function(element) &#123;</div><div class="line">	var foundAt = this.find(element);</div><div class="line">	if (foundAt &gt; -1) &#123;</div><div class="line">		this.dataStore.splice(foundAt,1);</div><div class="line">		--this.listSize;</div><div class="line">		return true;</div><div class="line">	&#125;</div><div class="line">	return false;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<hr>
+            <h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="1-Hexo-指令"><a href="#1-Hexo-指令" class="headerlink" title="1.Hexo 指令"></a>1.Hexo 指令</h2><pre><code>$ hexo init [folder];//新建网站。如无folder ，默认在当前目录建立网站。
+$ hexo new [layout] &lt;title;//新建一篇文章
+$ hexo generate;//生成静态文件-d，-w
+$ hexo publish [layout] &lt;filename&gt;;//发表草稿
+$ hexo server;//启动服务器-p重设端口 -s只使用静态文件 -l启动日记记录，使用覆盖记录格式
+$ hexo deploy;//-g部署之前预先生成静态文件
+$ hexo render &lt;file1&gt; [file2] ...;//渲染文件。-o, --output设置输出路径
+$ hexo migrate &lt;type&gt;;//从其他博客系统 迁移内容。
+$ hexo clean;//清除缓存文件(db.json)和已生成的静态文件(public)
+$ hexo list &lt;type&gt;;//列出网站资料
+$ hexo version
+</code></pre><hr>
 <h1 id="THE-END"><a href="#THE-END" class="headerlink" title="THE END"></a><center>THE END</center></h1><hr>
 
           
@@ -530,7 +532,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
+    NexT.Mist
   </a>
 </div>
 
@@ -595,13 +597,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
-
-
 
   
 
